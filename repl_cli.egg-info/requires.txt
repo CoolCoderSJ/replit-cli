@@ -1,0 +1,4 @@
+replit[all]<4.0.0,>=3.1.0
+requests[all]<3.0.0,>=2.25.1
+snow-pyrepl[all]<0.13,>=0.12
+typer[all]<0.4.0,>=0.3.2

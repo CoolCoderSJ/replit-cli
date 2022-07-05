@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "repl-cli"
+version = "1.2.8"
+description = ""
+authors = ["SnowCoder <donot@email.me>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+replit = "repl_cli.main:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.3.2"}
+requests = {extras = ["all"], version = "^2.25.1"}
+snow-pyrepl = {extras = ["all"], version = "^0.50"}
+replit = {extras = ["all"], version = "^3.1.0"}
+watchdog = {extras = ["all"], version = "^2.1.5"}
+datauri = "^1.0.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

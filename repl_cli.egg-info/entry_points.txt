@@ -1,0 +1,3 @@
+[console_scripts]
+replit = repl_cli.main:app
+
